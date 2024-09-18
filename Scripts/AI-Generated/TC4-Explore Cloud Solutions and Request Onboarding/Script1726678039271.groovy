@@ -1,9 +1,9 @@
+import katalon.common.fillOutTestingApplicationForm
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
-import com.kms.katalon.core.configuration.RunConfiguration
-import katalon.truetest.TrueTestScripts
-import katalon.common.fillOutTestingApplicationForm
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import katalon.truetest.TrueTestScripts
+import com.kms.katalon.core.configuration.RunConfiguration
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -25,7 +25,7 @@ TrueTestScripts.navigate("/qcitech-solutions")
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_qcitech_solutions/link_ourServices'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 2-Click on link ourServices - Navigate to page qcitech-solutionshome.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 2-Click on link ourServices - Navigate to page qcitech-solutionshome.png')
 
 "Step 3: Click on link learnMore -> Navigate to page 'qcitech-solutions/cloud-solutions'"
 
@@ -33,7 +33,7 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 2-Click on link ourServices - N
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_qcitech_solutions_home/link_learnMore'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 3-Click on link learnMore - Navigate to page qcitech-solutionscloud-solutions.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 3-Click on link learnMore - Navigate to page qcitech-solutionscloud-solutions.png')
 
 "Step 4: Click on link back -> Navigate to page 'qcitech-solutions/home'"
 
@@ -41,7 +41,7 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 3-Click on link learnMore - Nav
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_qcitech_solutions_cloud_solutions/link_back'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 4-Click on link back - Navigate to page qcitech-solutionshome.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 4-Click on link back - Navigate to page qcitech-solutionshome.png')
 
 "Step 5: Click on link onboardUs"
 
@@ -49,7 +49,7 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 4-Click on link back - Navigate
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_qcitech_solutions_home/link_onboardUs'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 5-Click on link onboardUs.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 5-Click on link onboardUs.png')
 
 "Step 6: Complete the testing application form with necessary details"
 
@@ -61,11 +61,11 @@ fillOutTestingApplicationForm.execute(data_path_0, Integer.valueOf(index_0))
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_qcitech_solutions_get_a_quote/span_close'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 7-Click on span close - Navigate to page .png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 7-Click on span close - Navigate to page .png')
 
 "Step 8: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Explore Services and Submit Testing Application_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Explore Cloud Solutions and Request Onboarding_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

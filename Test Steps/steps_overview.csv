@@ -1,5 +1,42 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Submit Testing Application Form through Contact Us,Navigate to the Qcitech Solutions page and access the contact form. Fill in the details and submit the application. Return to the home page and verify navigation.,"Step 1: Navigate to /qcitech-solutions
+1,Navigate to Qcitech Solutions and Request a Quote,"Access the Qcitech Solutions page, explore services, and complete the quote request form. Verify return to the home page.","Step 1: Navigate to /qcitech-solutions
+Step 2: Click on link ourServices -> Navigate to page 'qcitech-solutions/home'
+Step 3: Click on link qcitechSolutionsTeam4 -> Navigate to page 'qcitech-solutions/*'
+Step 4: Click on link getAquote
+Step 5: Complete the testing application form with necessary details
+	- Step 1: Click on input fullName
+	- Step 2: Click on input email
+	- Step 3: Click on input email
+	- Step 4: Click on input email
+	- Step 5: Click on input phone
+	- Step 6: Click on input phone
+	- Step 7: Click on input phone
+	- Step 8: Click on input companyName
+	- Step 9: Enter input value in input companyName
+	- Step 10: Click on input position
+	- Step 11: Enter input value in input position
+	- Step 12: Click on input projectTimeline
+	- Step 13: Enter input value in input projectTimeline
+	- Step 14: Click on select testingType
+	- Step 15: Click on div object
+	- Step 16: Click on select testingTool
+	- Step 17: Click on div katalonStudio
+	- Step 18: Click on input budget
+	- Step 19: Enter input value in input budget
+	- Step 20: Click on textarea describeYourTestScenarios
+	- Step 21: Enter input value in textarea describeYourTestScenarios
+	- Step 22: Click on button submit
+Step 6: Click on span close -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",High
+2,View Videos on Qcitech Solutions,Navigate to Qcitech Solutions and access the videos section. Verify return to the home page after viewing.,"Step 1: Navigate to /qcitech-solutions
+Step 2: Click on link videos -> Navigate to page 'qcitech-solutions/videos'
+Step 3: Click on span object
+Step 4: Click on span object
+Step 5: Click on span object -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",Medium
+3,Contact Qcitech Solutions for a Quote,Navigate to the Qcitech Solutions page and fill out the contact form for a quote. Verify return to the home page.,"Step 1: Navigate to /qcitech-solutions
 Step 2: Click on link contactUs
 Step 3: Complete the testing application form with necessary details
 	- Step 1: Click on input fullName
@@ -26,15 +63,8 @@ Step 3: Complete the testing application form with necessary details
 	- Step 22: Click on button submit
 Step 4: Click on span close -> Navigate to page ''
 Step 5: Take full page screenshot as checkpoint
-",High
-2,View Videos on Qcitech Solutions Page,Navigate to the Qcitech Solutions page and access the videos section. Click through multiple video objects and return to the home page. Verify successful navigation.,"Step 1: Navigate to /qcitech-solutions
-Step 2: Click on link videos -> Navigate to page 'qcitech-solutions/videos'
-Step 3: Click on span object
-Step 4: Click on span object
-Step 5: Click on span object -> Navigate to page ''
-Step 6: Take full page screenshot as checkpoint
-",High
-3,Explore Services and Submit Testing Application,Access the Qcitech Solutions page and explore services. Learn more about cloud solutions and return. Fill out the testing application form and verify navigation back to home.,"Step 1: Navigate to /qcitech-solutions
+",Medium
+4,Explore Cloud Solutions and Request Onboarding,"Navigate to Qcitech Solutions, learn about cloud solutions, then complete the onboarding quote request form. Verify return to home.","Step 1: Navigate to /qcitech-solutions
 Step 2: Click on link ourServices -> Navigate to page 'qcitech-solutions/home'
 Step 3: Click on link learnMore -> Navigate to page 'qcitech-solutions/cloud-solutions'
 Step 4: Click on link back -> Navigate to page 'qcitech-solutions/home'
@@ -64,4 +94,36 @@ Step 6: Complete the testing application form with necessary details
 	- Step 22: Click on button submit
 Step 7: Click on span close -> Navigate to page ''
 Step 8: Take full page screenshot as checkpoint
-",High
+",Medium
+5,Request Quote After Exploring Disaster Recovery Services,"Navigate to Qcitech Solutions, explore disaster recovery services, and complete the quote request form. Verify return to the home page.","Step 1: Navigate to /qcitech-solutions
+Step 2: Click on link ourServices -> Navigate to page 'qcitech-solutions/home'
+Step 3: Click on link disasterRecovery -> Navigate to page 'qcitech-solutions/*'
+Step 4: Click on link home -> Navigate to page 'qcitech-solutions/home'
+Step 5: Click on link qcitechSolutionsTeam42 -> Navigate to page 'qcitech-solutions/*'
+Step 6: Click on link getAquote
+Step 7: Complete the testing application form with necessary details
+	- Step 1: Click on input fullName
+	- Step 2: Click on input email
+	- Step 3: Click on input email
+	- Step 4: Click on input email
+	- Step 5: Click on input phone
+	- Step 6: Click on input phone
+	- Step 7: Click on input phone
+	- Step 8: Click on input companyName
+	- Step 9: Enter input value in input companyName
+	- Step 10: Click on input position
+	- Step 11: Enter input value in input position
+	- Step 12: Click on input projectTimeline
+	- Step 13: Enter input value in input projectTimeline
+	- Step 14: Click on select testingType
+	- Step 15: Click on div object
+	- Step 16: Click on select testingTool
+	- Step 17: Click on div katalonStudio
+	- Step 18: Click on input budget
+	- Step 19: Enter input value in input budget
+	- Step 20: Click on textarea describeYourTestScenarios
+	- Step 21: Enter input value in textarea describeYourTestScenarios
+	- Step 22: Click on button submit
+Step 8: Click on span close -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",Medium

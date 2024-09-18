@@ -1,8 +1,8 @@
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
-import com.kms.katalon.core.configuration.RunConfiguration
-import katalon.truetest.TrueTestScripts
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import katalon.truetest.TrueTestScripts
+import com.kms.katalon.core.configuration.RunConfiguration
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -52,7 +52,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 5-Click on span object - Naviga
 
 "Step 6: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-View Videos on Qcitech Solutions Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-View Videos on Qcitech Solutions_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

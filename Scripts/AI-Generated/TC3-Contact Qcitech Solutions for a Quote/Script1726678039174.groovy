@@ -1,9 +1,9 @@
+import katalon.common.fillOutTestingApplicationForm
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
-import com.kms.katalon.core.configuration.RunConfiguration
-import katalon.truetest.TrueTestScripts
-import katalon.common.fillOutTestingApplicationForm
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import katalon.truetest.TrueTestScripts
+import com.kms.katalon.core.configuration.RunConfiguration
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -25,7 +25,7 @@ TrueTestScripts.navigate("/qcitech-solutions")
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_qcitech_solutions/link_contactUs'))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 2-Click on link contactUs.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 2-Click on link contactUs.png')
 
 "Step 3: Complete the testing application form with necessary details"
 
@@ -37,11 +37,11 @@ fillOutTestingApplicationForm.execute(data_path_0, Integer.valueOf(index_0))
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_qcitech_solutions_get_a_quote/span_close'))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 4-Click on span close - Navigate to page .png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 4-Click on span close - Navigate to page .png')
 
 "Step 5: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Submit Testing Application Form through Contact Us_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Contact Qcitech Solutions for a Quote_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /qcitech-solutions",
+        "step 2: Click on link ourServices -> Navigate to page 'qcitech-solutions/home'",
+        "step 3: Click on link disasterRecovery -> Navigate to page 'qcitech-solutions/*'",
+        "step 4: Click on link home -> Navigate to page 'qcitech-solutions/home'",
+        "step 5: Click on link qcitechSolutionsTeam42 -> Navigate to page 'qcitech-solutions/*'",
+        "step 6: Click on link getAquote",
+        "step 7: Complete the testing application form with necessary details",
+        "step 8: Click on span close -> Navigate to page ''",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}
