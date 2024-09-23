@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to /qcitech-solutions",
+        "step 2: Click on link videos -> Navigate to page 'qcitech-solutions/videos'",
+        "step 3: Click on span object",
+        "step 4: Click on span object",
+        "step 5: Click on span object -> Navigate to page ''",
+        "step 6: Take full page screenshot as checkpoint"
+    ]
+}

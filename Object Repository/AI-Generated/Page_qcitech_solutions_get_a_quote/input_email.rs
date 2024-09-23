@@ -30,7 +30,7 @@
         <name>id</name>
         <type>Main</type>
         <value>input_comp-lub5k061</value>
-        <webElementGuid>69803871-615b-41e6-84c8-b33a4e9d1f16</webElementGuid>
+        <webElementGuid>e4aff8ac-adef-4a90-9377-11a2e6a7593f</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
         <name>name</name>
         <type>Main</type>
         <value>email</value>
-        <webElementGuid>69803871-615b-41e6-84c8-b33a4e9d1f16</webElementGuid>
+        <webElementGuid>e4aff8ac-adef-4a90-9377-11a2e6a7593f</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -46,6 +46,6 @@
         <name>type</name>
         <type>Main</type>
         <value>email</value>
-        <webElementGuid>69803871-615b-41e6-84c8-b33a4e9d1f16</webElementGuid>
+        <webElementGuid>e4aff8ac-adef-4a90-9377-11a2e6a7593f</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

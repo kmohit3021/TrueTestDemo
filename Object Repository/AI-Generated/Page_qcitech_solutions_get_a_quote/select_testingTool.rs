@@ -30,7 +30,7 @@
         <name>data-testid</name>
         <type>Main</type>
         <value>select-trigger</value>
-        <webElementGuid>69803871-615b-41e6-84c8-b33a4e9d1f16</webElementGuid>
+        <webElementGuid>e4aff8ac-adef-4a90-9377-11a2e6a7593f</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -38,6 +38,6 @@
         <name>id</name>
         <type>Main</type>
         <value>collection_comp-lubn2lpb</value>
-        <webElementGuid>69803871-615b-41e6-84c8-b33a4e9d1f16</webElementGuid>
+        <webElementGuid>e4aff8ac-adef-4a90-9377-11a2e6a7593f</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
