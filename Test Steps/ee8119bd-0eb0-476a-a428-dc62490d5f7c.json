@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to qcitech-solutions/home",
+        "step 2: Click on link cloudDesktopSolutions -> Navigate to page 'qcitech-solutions/cloud-desktop'",
+        "step 3: Click on link back -> Navigate to page 'qcitech-solutions/home'",
+        "step 4: Click on div containerBg",
+        "step 5: Click on link qcitechSolutionsTeam4 -> Navigate to page 'qcitech-solutions/*'",
+        "step 6: Click on link getAquote",
+        "step 7: Fill out and submit the testing request form with details.",
+        "step 8: Click on span close",
+        "step 9: Click on link videos -> Navigate to page 'qcitech-solutions/videos'",
+        "step 10: Click on link contactUs -> Navigate to page 'qcitech-solutions/get-a-quote'",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}
